@@ -1,0 +1,51 @@
+body {
+    color: darkgrey;
+}
+
+hr{
+    width: 20%;
+}
+
+.main-section {
+    width: 100%;
+    max-width: 769px;
+    margin-top: 150px;
+}
+
+
+.line{
+    height: 2px;
+    width: 30%;
+    background: darkgrey;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.item {
+    margin: 15px 0px;
+}
+
+.circle {
+    background: lightgrey;
+    opacity: 0.6;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+i {
+    font-size: 40px;
+    color: orange;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
